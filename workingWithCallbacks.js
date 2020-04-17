@@ -1,3 +1,4 @@
+
 //Objetivos:
     //Obter um usuario;
     //Obter o número de telefone do  usuario a partir de seu _id;
@@ -18,20 +19,16 @@ function getUser(callback) {
 function getPhone(userId, callback) {
 
     setTimeout(() => {
-
         return callback(undefined, {
             telefone: 707070,
             ddd: 11,
         })
-
     }, 2000);
-
 }
 
 function getAdress(userId, callback) {
 
     setTimeout(() => {
-
         return callback(undefined, {
             logadrouro: 'Rua c',
             numero: 293
