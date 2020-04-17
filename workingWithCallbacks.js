@@ -68,6 +68,7 @@ getUser((error, user) => {
     })
 })
 
+
 // output:
 //   Name:Jhon,
 //   Adress:Rua c,293,
